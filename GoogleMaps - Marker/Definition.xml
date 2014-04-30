@@ -1,0 +1,9 @@
+<ExtensionObject Label="GoogleMaps - Marker" Description="GoogleMaps Extension with standard markers" PageHeight="20000">
+	<Dimension Label="Latitude" Initial="" DropTarget="Latitude"/>
+	<Dimension Label="Longitude" Initial="" DropTarget="Longitude"/>
+	<Measurement Label="Measurement" Initial="Sum(lat)"/>
+	<Measurement Label="Custom Marker URL" Initial="='url goes here'" Expression="='url goes here'"/>
+	<Text Label="Pop-up labels" Type="checkbox" Initial="" Expression="1"/>
+	<Initiate Name="Chart.Dimension.0.SuppressNull" value="1"/>
+	<Initiate Name="Chart.Dimension.1.SuppressNull" value="1"/>
+</ExtensionObject>
